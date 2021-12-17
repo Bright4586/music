@@ -10,9 +10,36 @@ width:100%;
   background-image: linear-gradient(rgba(0,0,0,0.5),#b89e81),url( https://github.com/Bright4586/music/blob/main/d.jpg );
     background-position:center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-item: center;
 }
 
 
+. music img{
+        width:300px
+}
+
+
+
+.music {
+width:85%
+  padding: 30px;
+  box-sizing: border-box;
+  background: #000;
+  display:flex;
+}
+
+.info{
+  color:white;
+  margin-left:30px
+    flex: 1;
+}
+
+.info p{
+  font-size:20px;
+  margin: 10px 0 60;
+}
 
 /* Style the footer */
 footer {
